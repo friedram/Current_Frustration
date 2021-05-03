@@ -53,8 +53,8 @@ wordcloud = WordCloud(font_path = r'C:\Windows\Fonts\Verdana.ttf',
 
 
 
-#plt.imshow(wordcloud)
-#plt.axis('off')
+plt.imshow(wordcloud)
+plt.axis('off')
 #plt.show()
 # saves picture file to picture format
 plt.savefig('bank_data.png')
