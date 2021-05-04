@@ -1,0 +1,56 @@
+<!-- This provides the HTML for the podcastEpisode page -->
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="content-section">
+        <form method="POST" action="{{ url_for('podcastEpisodes') }}">
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Find an Episode</legend>
+                <div class="form-group">
+                    {{ form.search.label(class="form-control-label") }}
+                    {% if form.search.errors %}
+                        {{ form.search(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.search.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.search(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </form>
+    </div>
+
+    <article class="media content-section">
+        <div class="media-body" align="center">
+            <h3>Browse Existing Planned Episodes</h3>
+        </div>
+    </article>
+
+    <article class="media content-section">
+        <div class="media-body" align="center">
+            <a class="btn btn-secondary" href="/addepisode" role="button">Add Episode</a>
+            <a class="btn btn-secondary" href="{{ url_for('remove_episode') }}" role="button">Remove Episode</a>
+        </div>
+    </article>
+
+    {% for episode in podcastEpisode %}
+        <article class="media content-section">
+          <div class="media-body">
+            <h2><a class="article-title" href="#">Podcast Episode on {{ episode.title }}</a></h2>
+              <p class="article-content">Episode Number {{ episode.episodeNumber }}</p>
+            <p class="article-content">To be posted on {{ episode.episodeDate }}</p>
+          </div>
+        </article>
+    {% endfor %}
+
+    <div class="col-xs-1" align="center">
+            <a class="btn btn-secondary" href="/addepisode" role="button">Add Episode</a>
+            <a class="btn btn-secondary" href="{{ url_for('remove_episode') }}" role="button">Remove Episode</a>
+    </div>
+{% endblock content %}

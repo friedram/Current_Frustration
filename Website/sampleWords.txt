@@ -1,0 +1,114 @@
+Advanced Dungeons & Dragons®  2nd Edition
+
+
+Monstrous Manual™
+Game Accessory
+
+
+The updated Monstrous Manual™ for the AD&D® 2nd Edition Game
+
+
+TSR,Inc.								TSR Ltd.	
+POB 756								120 Church End	
+Lake Geneva								Cherry Hinton	
+WI 53147								Cambridge CB1 3LB	
+USA									United Kingdom	
+
+
+ADVANCED DUNGEONS & DRAGONS and AD&D are registered trademarks owned by TSR, Inc.
+The TSR logo and MONSTROUS MANUAL are trademarks owned by TSR, Inc.
+
+
+Project Coordinator: Tim Beach
+Editor: Doug Stewart
+Editorial Assistant: Gaye O'Keefe
+Cover Illustration: Jeff Easley
+Interior Illustrations: Tony DiTerlizzi (pencils, inks, and colors on insects, crustaceans, faerie-folk, and miscellaneous creepy things), Jeff Butler (pencils and inks on humans, demihumans, humanoids, giants, genies, dragonets, and miscellaneous part-human creatures), Dave Simons (pencils, inks, and colors on normal animals, almost normal animals, and squishy things), Tom Baxa (pencils, inks, and colors on gith-kind and miscellaneous), Mark Nelson (pencils and inks on dragons, dinosaurs, and miscellaneous), Les Dorscheid (colors on most of the book), Tim Beach and Doug Stewart (invisible stalker)
+Art Coordination: Peggy Cooper with Tim Beach
+Typesetting: Gaye O'Keefe
+Keylining: Paul Hanchette
+Proofreading: Karen Boomgarden, Anne Brown, Andria Hayday, Thomas Reid, David Wise
+Guidance: Steve Winter, Tim Brown, James M. Ward
+Monster Selection Committee: Jeff Grubb, David Wise, John Rateliff, Tim Beach
+Development: Tim Beach, Doug Stewart, Slade Henson, Thomas Reid, Jeff Grubb, Wolfgang Baur, Jon Pickens, John Rateliff
+Design Concept for MONSTROUS COMPENDIUM® Appendices: David "Zeb" Cook, Steve Winter, Jon Pickens
+
+
+We would like to offer special thanks to the artists and the people who helped with development, as well as Rich Baker, Carolyn Chambers, Bill Connors, Peggy Cooper, Slade Henson, Dawn Kegley, Dana Knutson, Georgia S. Stewart, and Sue Weinlein.
+Many people have contributed to either the original first edition monster books or to the MONSTROUS COMPENDIUM™ appendices. The list that follows may not be complete, but we would like to thank the following people for their contributions to the monsters described in this book: the designers and editors, Rich Baker, Jay Battista, Wolfgang Baur, Tim Beach, Scott Bennie, Donald J. Bingle, Linda Bingle, Karen Boomgarden, Grant Boucher, Al Boyce, Mike Breault, Anne Brown, Tim Brown, Dr. Arthur W. Collins, Bill Connors, David "Zeb" Cook, Troy Denning, Dale Donovan, Newton Ewell, Nigel Findley, Steve Gilbert, Ed Greenwood, Jeff Grubb, Gary Gygax, Luke Gygax, Allen Hammack, Kris & Steve Hardinger, Andria Hayday, Bruce A. Heard, Slade Henson, Tracy Hickman, Harold Johnson, Rob King, Vera Jane Koffler, Heike Kubasch, Steve Kurtz, J. Paul LaFountain, Lenard Lakofka, Jim Lowder, François Marcela-Froideval, David Martin, Colin McComb, Anne McCready, Blake Mobley, Kim Mohan, Roger E. Moore, Chris Mortika, Bruce Nesmith, C. Terry Phillips, Jon Pickens, Brian Pitzer, Mike Price, Louis J. Prosperi, Tom Prusa, Jean Rabe, Paul Reiche, Jim Sandt, Lawrence Schick, Rick Swan, Greg Swedburg, Teeuwynn, John Terra, Gary Thomas, Allen Varney, James M. Ward, Dori Watry, Skip Williams, and Steve Winter; the artists who helped define the monsters, Tom Baxa, Brom, Jeff Butler, Clyde Caldwell, Doug Chaffee, Tony DiTerlizzi, Les Dorscheid, Jeff Easley, Larry Elmore, Fred Fields, Jim Holloway, Daniel Horne, Mark Nelson, Keith Parkinson, Harry Quinn, Robh Ruppel, Dave Simons, Dave Sutherland, D.A. Trampier, Valerie Valusek; and the people who put the books together and make them look good, Linda Bakk, Dee Barnett, Steve Beck, Peggy Cooper, Sarah Feggestad, Paul Hanchette, Angelika Lokotz, Gaye O'Keefe, Stephanie Tabat, and Tracey Zamagne; and anyone who has ever asked a question, offered constructive criticism, written an article, or offered an opinion about the monsters of the AD&D® game. Special thanks to Christopher M. Carter and Seth Goodkind for spotting errors.
+
+
+ADVANCED DUNGEONS & DRAGONS, AD&D, DRAGON, DRAGONLANCE, FIEND FOLIO, FORGOTTEN REALMS, GREYHAWK, RAVENLOFT, SPELLJAMMER, and WORLD OF GREYHAWK are registered trademarks owned by TSR, Inc.
+AL-QADIM, DARK SUN, MONSTROUS COMPENDIUM, DUNGEON MASTER, DM, and the TSR logo are trademarks owned by TSR, Inc. All TSR characters, character names, and the distinctive likenesses thereof are trademarks owned by TSR, Inc.
+
+Random House and its affiliate companies have worldwide distribution rights in the book trade for English language products of TSR, Inc.
+Distributed to the book and hobby trade in the United Kingdom by TSR, Ltd.
+Distributed to the toy and hobby trade by regional distributors.
+
+This material is protected under the copyright laws of the United States of America. Any reproduction or other unauthorized use of the material or artwork contained herein is prohibited without the express written consent of TSR, Inc.
+
+Copyright ©1995 TSR, Inc. All Rights Reserved.
+
+
+How To Use This Book
+
+This hardcover Monstrous Manual was created in response to the many requests to gather monsters into a single, durable volume which would be convenient to carry. With the DUNGEON MASTER™ Guide (DMG) and the Player's Handbook (PHB), the Monstrous Manual forms the core of the AD&D® 2nd Edition game.
+	Every monster from the MONSTROUS COMPENDIUM® Volumes One and Two are contained within, as well as a few creatures from later volumes. The monsters in the Monstrous Manual have been revised, edited, and updated. Statistics for many of the creatures have been corrected, new information has been added to many of the entries, and many monsters have been reclassified. There are some new beasts, as well. In cases of conflicting information, the Monstrous Manual supersedes all previously published data.
+	Certain entries have been greatly condensed from MONSTROUS COMPENDIUM entries, to make this book as complete as possible without increasing its size or price. For instance, there is a full-page description of ravens in the MONSTROUS COMPENDIUM appendix for the GREYHAWK® campaign setting; in this book, ravens are given only a few lines in the "Bird" entry. This provides enough information to use the creatures for a short encounter, and it allows a page to be devoted to another adversary.
+	To find a monster in this book, flip through the pages or look in the index, which contains listings for the common name(s) of every monster in the book, referenced to the correct page.
+	All of the monsters described here are typical for their type. DMs should note that unusual variations are encouraged, but they are most effective when they depart from the expected. Likewise, entries describe typical lairs for creatures, from the dungeon complexes they inhabit to the tree houses they build; changing the look of these can make a monster encounter unique.
+
+Contents
+This introduction describes how to interpret the monsters in this book. In addition, there are three small appendices in the back of the book. The first deals with making monsters. The second covers monster summoning and includes tables for random determination of summoned creatures; to make random encounter charts for a campaign, the DM should refer to Chapter 11 of the DMG. The third appendix is concerned with creating NPC parties.
+
+Other Worlds
+Several of the monsters in this book have been imported from specialized game worlds, such as the SPELLJAMMER® campaign setting, the FORGOTTEN REALMS® setting, or the DARK SUN® world. The monsters in this book may be used in any setting; if a campaign setting is noted, it simply describes where the monster was first encountered, or where it is the most common. A particular monster still may not be encountered in a specific campaign world; this is up to the DM. For monsters from one of the specific worlds, the DM should consult the appropriate MONSTROUS COMPENDIUM appendices.
+
+The Monsters
+Each monster is described fully, with entries that describe behavior, combat modes, and so on. These are explained in the following text.
+
+CLIMATE/TERRAIN defines where the creature is most often found. Climates include arctic, sub-arctic, temperate, and tropical. Typical terrain includes plain/scrub, forest, rough/hill, mountain, swamp, and desert. In some cases, a range is given; for instance, "cold" implies arctic, sub-arctic, and colder temperate regions.
+FREQUENCY is the likelihood of encountering a creature in an area. Chances can be adjusted for special areas.
+
+	Very rare	=  4% chance	
+	Rare 	= 11% chance	
+	Uncommon = 20% chance	
+	Common	= 65% chance	
+
+ORGANIZATION is the general social structure the monster adopts. "Solitary" includes small family groups.
+
+ACTIVITY CYCLE is the time of day when the monster is most active. Those active at night can be active at any time in subterranean settings. These are general guidelines and exceptions are fairly common.
+
+DIET shows what the creature usually eats. Carnivores eat meat, herbivores eat plants, and omnivores eat either. Scavengers primarily eat carrion. If a monster does not fit any of these categories, the substances it does eat are described in the entry or in the text.
+
+INTELLIGENCE is the equivalent of human "IQ." Certain monsters are instinctively cunning; these are noted in the monster descriptions. Ratings correspond roughly to the following Intelligence ability scores:
+
+	0		Nonintelligent or not ratable	
+	1		Animal intelligence	
+	2-4		Semi-intelligent	
+	5-7		Low intelligence	
+	8-10	Average (human) intelligence	
+	11-12	Very intelligent	
+	13-14	Highly intelligent	
+	15-16	Exceptionally intelligent	
+	17-18	Genius	
+	19-20	Supra-genius	
+	21+	Godlike intelligence	
+
+TREASURE refers to the treasure tables in the DUNGEON MASTER Guide. If individual treasure is indicated, each individual may carry it (or not, at the DM's discretion). Major treasures are usually found in the monster's lair; these are most often designed and placed by the DM. Intelligent monsters will use the magical items present and try to carry off their most valuable treasures if hard pressed. If treasure is assigned randomly, roll for each type possible; if all rolls fail, no treasure of any type is found. Treasure should be adjusted downward if a few monsters are encountered. Large treasures are noted by a multiplier (x10, for example); this should not be confused with treasure type X. Treasure types listed in parentheses are treasures found in the creatures' lair. Do not use the tables to place dungeon treasure, since the numbers encountered underground will be much smaller.
+
+ALIGNMENT shows the general behavior of the average monster of that type. Exceptions, though uncommon, may be encountered.
+
+NO. APPEARING indicates an average encounter size for a wilderness encounter. The DM should alter this to fit the circumstances as the need arises. This should not be used for dungeon encounters.
+	Note that some solitary creatures are found in small groups; this means they are found in very small family units, or that several may happen to be found together, but do not cooperate with one another.
+
+ARMOR CLASS is the general protection worn by humans and humanoids, protection due to physical structure or magical nature, or difficulty in hitting due to speed, reflexes, etc. Humans and humanoids of roughly man-size that wear armor will have an unarmored rating in parentheses. Listed AC does not include any special bonuses noted in the description.
+
+MOVEMENT shows the relative speed rating of the creature. Higher speeds may be possible for short periods. Human, demihuman, and humanoid movement rate is often determined by armor type (unarmored rates are given in parentheses). Movements in different mediums are abbreviated as follows:
+
+	Fl = flying	
+	Sw = swimming	
+	Br = burrowing	
+	Cl = climbing	
+	Wb = moving across webs	
+

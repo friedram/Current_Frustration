@@ -1,0 +1,161 @@
+<!-- This provides the HTML for the search page -->
+{% extends "layout.html" %}
+{% block content %}
+
+    <h1 class="text-center">find games in the database</h1>
+
+<div class="content-section">
+        <form method="POST" action="">
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.name.label(class="form-control-label") }}
+                    {% if form.name.errors %}
+                        {{ form.name(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.name.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.name(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.genre.label(class="form-control-label") }}
+                    {% if form.genre.errors %}
+                        {{ form.genre(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.genre.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.genre(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.creator.label(class="form-control-label") }}
+                    {% if form.creator.errors %}
+                        {{ form.creator(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.creator.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.creator(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.episode.label(class="form-control-label") }}
+                    {% if form.episode.errors %}
+                        {{ form.episode(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.episode.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.episode(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.date.label(class="form-control-label") }}
+                    {% if form.date.errors %}
+                        {{ form.date(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.date.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.date(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.cost.label(class="form-control-label") }}
+                    {% if form.cost.errors %}
+                        {{ form.cost(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.cost.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.cost(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+            <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.platform.label(class="form-control-label") }}
+                    {% if form.platform.errors %}
+                        {{ form.platform(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.platform.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.platform(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+
+
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </form>
+    </div>
+
+
+    {% for t in render %}
+            <article class="media content-section">
+                <div class="media-body">
+                    <div class="article-metadata">
+                        <a class="mr-2">Game Creator: (FK) {{ t.gameCreator }}</a>
+                        <small class="text-muted">Originally Released: {{ t
+              .releaseDate }}</small>
+                    </div>
+                    <h2><a class="article-title" href="#">{{ t.nameGame }}</a></h2>
+                    <p class="article-content">To be covered on podcast episode {{ t.podcastEpisode }}.
+                    Cost: ${{ t.cost }}
+                    Genre: (FK) {{ t.gameGenre }} </p>
+                </div>
+            </article>
+    {% endfor %}
+
+{% endblock content %}

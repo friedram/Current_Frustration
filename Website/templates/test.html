@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+Test Page
+<img src="blank_data.png" width="500" height="600">
+
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2">Posted by {{ post.author }}</a>
+              <small class="text-muted">{{ post.date_posted }}</small>
+            </div>
+            <h2><a class="article-title">{{ post.title }}</a></h2>
+              <img src="{{ post.image }}" width="700" height="350">
+            <p class="article-content">{{ post.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

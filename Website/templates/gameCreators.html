@@ -1,0 +1,64 @@
+{#This provides the HTML for the gameCreators page#}
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="content-section">
+        <form method="POST" action="{{ url_for('gameCreators') }}">
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Find a Creator</legend>
+                <div class="form-group">
+                    {{ form.search.label(class="form-control-label") }}
+                    {% if form.search.errors %}
+                        {{ form.search(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.search.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.search(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </form>
+    </div>
+
+    <article class="media content-section">
+        <div class="media-body" align="center">
+            <h3>Browse Existing Creators</h3>
+        </div>
+    </article>
+
+    <article class="media content-section">
+        <div class="media-body" align="center">
+            <a class="btn btn-secondary" href="/addcreator" role="button">Add Creator</a>
+            <a class="btn btn-secondary" href="{{ url_for('remove_creator') }}" role="button">Remove Creator</a>
+        </div>
+    </article>
+
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2">Posted by Andy</a>
+              <small class="text-muted">on 1.24.2021</small>
+            </div>
+            <h2><a class="article-title" href="#">Game Creators</a></h2>
+              {% for creator in gameCreator %}
+            <p class="article-content">Creator ID: {{ creator.idCreator }}
+                Creator Name: {{ creator.nameCreator }}</p>
+              {% endfor %}
+          </div>
+        </article>
+
+    <article class="media content-section">
+        <div class="media-body" align="center">
+            <a class="btn btn-secondary" href="/addcreator" role="button">Add Creator</a>
+            <a class="btn btn-secondary" href="{{ url_for('remove_creator') }}" role="button">Remove Creator</a>
+        </div>
+    </article>
+
+{% endblock content %}
