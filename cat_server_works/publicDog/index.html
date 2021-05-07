@@ -1,0 +1,117 @@
+<!----------
+Andy Friedrich
+OSU 361
+Word Cloud HTML
+Dependancies for functionality:
+Public Folder
+-- WordCloud.py
+-- sampleWords.txt - current hard coded version of running wordcloud - not REST
+-- sampleWordsLOL.txt  - current hard coded version of running wordcloud - not REST
+-- CSS Folder
+---- ButtonPodcast.css - need to clean up
+---- contact.css - need to cleanup
+---- home.css - need to cleanup
+---- Home_background_dark2.jpg - ok as is for now- probably replace with something else
+---- style.css - need to cleanup
+----->
+
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en-US"></html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+
+    <link rel='stylesheet' href='./public/CSS/home.css' type="text/css"></link>
+    <script src="/index.js"  defer></script>
+</head>
+<body>
+	<header>
+        <div class="radTopZZ01">
+            <!---
+            <img {max-width 50%; height: auto;} src="./public/Images/BacklogPodcastLogo2.jpg" alt="Backlog Logo" height="60" class="logo">
+            <audio id="songBrian" controls autoplay style="width: 150px;">
+              <source src="./public/Music/01 Track 1.mp3" alt="Brian's music" type="audio/mp3">
+            </audio>
+            --->
+            <nav>
+                <ul>
+                    <li><a href="home.html">Backlog Home</a></li>
+                    <li><a href="podcast.html">Backlog Podcast</a></li>
+                    <li><a href="ramblings.html">Andy & Brian Ramblings</a></li>
+                    <li><a href="merch.html">Merch & Vendors</a></li>
+                    <li><a href="contact.html">Contact Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <div>
+      <p class="center"><!---Optional text here---->
+        <br>
+        <br>
+        <!---Optional text here---->
+      </p>
+    </div>
+    <div class="padded-multiline">
+        <h1>
+            <strong>
+        Word Cloud Creator! &ensp;
+            </strong>
+        </h1>
+    </div>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <div class="padded-multiline">
+        1st Scraper Data Loaded Here:  &ensp;
+    </div>
+
+    <div class="padded-multiline">
+        2nd Scraper Data Loaded Here &ensp;
+    </div>
+    <br>
+    <div class="container">
+      <div class="center">
+          <!---Need to update submit button below to generate word cloud - execute Python Code------------->
+        <button onclick="window.location.href='https://audiomack.com/artist/backlog-podcast';">Submit</button>
+      </div>
+    </div>
+    <br>
+    <div class="carousel-wrapper">
+      <style>
+        .myGameRoom {display:none;}
+      </style>
+      <body>
+        <br>
+        Jacob Eckroth REST code
+        <button type="button" id ="catButton">Click me to request a cat from this server!</button>
+        <button type="button" id ="dogButton">Click me to request a dog from the other server!</button>
+        <br>
+
+
+        <img src='.\public\wordCloud.png' style="width:100%">
+
+        <!--Demo image here for trouble shooting - <img src='.\public\lolz.jpg' style="width:100%">
+        -->
+
+  </div>
+</body>
+
+
+    <div class="padded-multiline">
+        Top 5 Words!<br>
+        Not implemented yet - hope to have done in a future iteration<br>
+        Blocks - 14<br>
+        Map - 13<br>
+        Avator - 13<br>
+        Building -12<br>
+        Xbox - 11&ensp;<br>
+    </div>
+Jacob Eckroth REST code - for Cat & Dog pushes
+</html>
