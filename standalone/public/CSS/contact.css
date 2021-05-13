@@ -1,0 +1,195 @@
+/******************************************************************************************
+  Author:  Andrew Friedrich
+  OSU Email Address: friedran@oregonstate.edu
+  Course / Project ID: CS290_400_U2020
+  Project Number: Project - Backlog Podcast
+  Description:  Website for Backlog Podcast
+  Credit:
+  For background Image:
+  https://css-tricks.com/perfect-full-page-background-image/
+
+  https://css-tricks.com/design-considerations-text-images/
+  https://css-tricks.com/multi-line-padded-text/
+
+  NAV:Before & After:
+  https://stackoverflow.com/questions/9166238/before-and-after-nav-images
+
+  Ease in and Out:
+  https://css-tricks.com/ease-out-in-ease-in-out/
+******************************************************************************************/
+table, th, td { border: 2px solid black;}
+table th {background-color: #FFF}
+
+div.outer-content {
+    background-color: pink;
+    width: 75%;
+    height: 60px;
+    top:20px;
+    position: relative;
+}
+
+div.inner-content {
+    background-color: #5882FA;
+    width: 75%;
+    height: 20px;
+    top: 20px;
+    position: relative;
+    margin: auto;    
+}
+
+form {
+    top: 10px;
+	position: relative;
+	background-color: #0e7a0d;
+	width: 50em;
+}
+/*********************************
+Idea for spacing
+https://www.w3schools.com/csS/css_padding.asp
+
+*********************************/ 
+section {
+    border: 0.5px solid black;
+    margin-bottom: 9px;
+    padding: 7px;
+}
+
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #3A3A3A;
+	color: #ffffff;
+	background: url('./Home_background_dark2.jpg') no-repeat center center fixed;
+	background-size: cover, contain;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+	background-color: black;
+	color: #ffffff;
+	display: inline;
+	padding: 0.5rem;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	box-shadow: 10px 0 0 black, -10px 0 0 black;
+}
+
+.center {
+	text-align: center;
+	
+}
+
+.center2 {
+	margin:auto;
+	width: 80em;
+}
+
+.center3 h2 { 
+	background-color: #0e7a0d;
+	padding: 10px 0;
+	color: #ffffff; 
+	display: inline;
+	margin: 0; 
+	text-align: center
+  }
+
+
+.normText{
+	background-color: white;
+	color: Black;
+}
+
+.altText {
+	background-color: black;
+	color: white;
+}
+
+.padded-multiline { 
+	background-color: #000000;
+	line-height: 1.0; 
+	padding: 13px 0; 
+	width: 820px;
+	margin: 20px auto;
+	text-align: center
+  }
+  .padded-multiline h1 { 
+	background-color: #000000;
+	padding: 10px 0;
+	color: #ffffff; 
+	display: inline;
+	margin: 0; 
+	text-align: center
+  }
+  .padded-multiline h1 strong { 
+	position: relative;
+	left: 10px; 
+	margin: 20px auto;
+	text-align: center
+  }
+
+.radTopZZ01 {
+	margin: 0 auto;
+	width: 85%;
+}
+
+header {
+	background: #0e7a0d;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.podcasters {
+	float: left;
+	padding: 10px 0;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 25px;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	overflow: hidden;
+	border: 2px solid black;
+	background-clip: border-box;  
+}
+
+
+nav a:before {
+	background-color: #3A3A3A;
+	height: 6px;
+	transition: all ease-in-out 500ms;
+	content: ' ';
+	display: float;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+
+nav a:hover::before {
+	width: 100%;
+}

@@ -1,0 +1,219 @@
+/******************************************************************************************
+  Author:  Andrew Friedrich
+  OSU Email Address: friedran@oregonstate.edu
+  Course / Project ID: CS290_400_U2020
+  Project Number: Project - Backlog Podcast
+  Description:  In this project I will use HTML/CSS and JavaScript to build a simple website
+  and publish it online.
+  The theme of this website is the "Backlog Podcast" - a website about an ever growing backlog
+  of video games and how we prioritize (or don't) to play through it.
+
+  Picture/video citation:  All pictures & videos on the Backlog Podcast website for this project
+  were taken by and the property of Andrew Friedrich.  All rights reservered.
+  Credit for music:
+  Permission to use music comes from Brian Friedrich- creator, aurthor and artist.
+
+  Scrolling Pictures - https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
+  Credit:
+  For background Image:
+  https://css-tricks.com/perfect-full-page-background-image/
+  Formatting:
+  https://css-tricks.com/design-considerations-text-images/
+  https://css-tricks.com/multi-line-padded-text/
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border
+
+  Bars on the right side credit:
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed
+
+  NAV:Before & After:
+  https://stackoverflow.com/questions/9166238/before-and-after-nav-images
+
+  Ease in and Out:
+  https://css-tricks.com/ease-out-in-ease-in-out/
+
+  Carousel:
+  https://css-tricks.com/css-only-carousel/
+  https://developer.mozilla.org/en-US/docs/web/css/@media
+  https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self
+
+  Countdown Timer:
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown
+******************************************************************************************/
+html {
+	font-family: Arial, Helvetica, sans-serif;;	
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #3A3A3A;
+	color: #ffffff;
+	background: url('./Home_background_dark2.jpg') no-repeat center center fixed;
+	background-size: cover, contain;
+	
+}
+
+.title {
+	background-color: black;
+	color: #ffffff;
+	display: inline;
+	padding: 0.5rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.center2 {
+	margin:auto;
+	width: 80em;
+}
+
+.center3 h2 { 
+	background-color: #0e7a0d;
+	padding: 10px 0;
+	color: #ffffff; 
+	display: inline;
+	margin: 0; 
+	text-align: center
+}
+
+.normText{
+	background-color: white;
+	color: Black;
+}
+
+.altText {
+	background-color: black;
+	color: white;
+}
+
+.padded-multiline { 
+	background-color: #000000;
+	line-height: 1.0; 
+	padding: 13px 0; 
+	width: 820px;
+	margin: 20px auto;
+	text-align: center
+  }
+
+.padded-multiline h1 { 
+	background-color: #000000;
+	padding: 10px 0;
+	color: #ffffff; 
+	display: inline;
+	margin: 0; 
+	text-align: center
+  }
+
+.padded-multiline h1 strong { 
+	position: relative;
+	left: 10px; 
+	margin: 20px auto;
+	text-align: center
+  }
+
+.radTopZZ01 {
+	margin: 0 auto;
+	width: 85%;
+}
+
+header {
+	background: #0e7a0d;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.podcasters {
+	float: left;
+	padding: 10px 0;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 25px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	overflow: hidden;
+	border: 2px solid black;
+	background-clip: border-box;  
+}
+
+nav a:before {
+	background-color: #3A3A3A;
+	height: 6px;
+	transition: all ease-in-out 500ms;
+	content: ' ';
+	display: float;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+.carousel-wrapper{
+    width: 800px;
+    height: 600px;
+    position:relative;
+    margin:0 auto;
+}
+
+.carousel-item{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow{
+    border: solid RED;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 12px;
+}
+  
+.arrow-prev{
+    left:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+}
+   
+.arrow-next{
+    right:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+}
+  
+.light{
+    color:white;
+}
